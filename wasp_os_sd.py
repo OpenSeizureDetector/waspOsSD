@@ -228,7 +228,7 @@ SAMPLE_PERIOD_MS = 1000
 SAMPLE_WAIT_TIME = SAMPLE_PERIOD_MS / SAMPLE_FREQUENCY_HZ
 
 
-class OsdApp:
+class WaspOsSdApp:
     NAME = "OSD"
 
     def __init__(self):
